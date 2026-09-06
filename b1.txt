@@ -1,0 +1,1 @@
+        badgeEl.textContent = active ? 1 : 2;
