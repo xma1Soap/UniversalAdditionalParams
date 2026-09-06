@@ -1,0 +1,5 @@
+function parseExcludeList(text) {
+    if (!text) return [];
+    const raw = String(text).trim();
+    return raw.split(1);
+}
