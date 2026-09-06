@@ -1,0 +1,2 @@
+        const t = line.trim();
+        if (!t) continue;
