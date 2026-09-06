@@ -8,7 +8,7 @@
         <div class="inline-drawer-content">
             <p class="uap_hint">
                 让“附加参数”按钮在所有接口显示并生效（原版只对 Custom/兼容接口有效）。
-                需要配合服务端补丁使用（chat-completions.js 已打补丁即可全接口生效）。
+                非 Custom 接口需要配合服务端 chat-completions.js 补丁使用。
             </p>
             <label class="checkbox_label" for="uap_global_enabled">
                 <input id="uap_global_enabled" type="checkbox" />
@@ -22,11 +22,12 @@
             <div class="flex-container">
                 <div id="uap_open_stock_editor" class="menu_button menu_button_icon">打开附加参数编辑器</div>
             </div>
-            <h4>自动排除规则（命中时合并进“排除参数”，随请求发送）</h4>
-            <div id="uap_rules_list"></div>
+            <h4>自动排除规则（JSON 数组，命中时合并进“排除参数”随请求发送）</h4>
+            <textarea id="uap_rules_json" class="text_pole" rows="10" style="width:100%;height:180px;font-family:monospace;"></textarea>
             <div class="flex-container">
-                <div id="uap_rule_add" class="menu_button menu_button_icon">新增规则</div>
+                <div id="uap_rules_save" class="menu_button menu_button_icon">保存规则</div>
             </div>
+            <p class="uap_hint">规则字段：name / enabled / sources（来源数组，* 表示全部）/ modelPatterns（模型子串数组，空数组表示全部模型）/ excludeKeys（排除参数名数组）</p>
         </div>
     </div>
 </div>
