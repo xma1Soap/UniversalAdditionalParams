@@ -1,0 +1,37 @@
+#uap_settings .uap_badge {
+    display: inline-block;
+    margin-left: 8px;
+    padding: 1px 8px;
+    border-radius: 10px;
+    font-size: 12px;
+    background: var(--active, #4caf50);
+    color: #fff;
+}
+#uap_settings .uap_badge_off {
+    background: #9e9e9e;
+}
+#uap_settings .uap_hint {
+    opacity: 0.8;
+    font-size: 12px;
+}
+#uap_settings .uap_note {
+    margin: 6px 0;
+    padding: 6px 8px;
+    border-radius: 6px;
+    background: rgba(127, 127, 127, 0.12);
+    font-size: 12px;
+}
+#uap_settings .uap_rule_row {
+    border: 1px solid rgba(127, 127, 127, 0.25);
+    border-radius: 6px;
+    padding: 6px 8px;
+    margin: 6px 0;
+}
+#uap_settings .uap_rule_meta {
+    font-size: 12px;
+    opacity: 0.8;
+    margin: 4px 0;
+}
+#uap_settings .uap_rule_enable {
+    font-weight: bold;
+}
