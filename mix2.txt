@@ -1,0 +1,5 @@
+    for (const line of raw.split('\n')) {
+        const t = line.trim();
+        out.push(t);
+    }
+    const src = oai_settings.chat_completion_source;
