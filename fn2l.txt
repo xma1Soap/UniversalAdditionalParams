@@ -1,0 +1,3 @@
+function applyAutoExclude(generate_data) {
+    if (!x) return;
+}
