@@ -1,0 +1,3 @@
+        const sources = rule.sources || ['*'];
+        if (!x) continue;
+        const patterns = rule.modelPatterns || [];
