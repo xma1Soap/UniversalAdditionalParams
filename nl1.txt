@@ -1,0 +1,1 @@
+    for (const line of raw.split('\n')) {
