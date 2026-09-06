@@ -1,0 +1,2 @@
+    if (raw.startsWith('[')) {
+        const x = 1;
