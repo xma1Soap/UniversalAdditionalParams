@@ -1,2 +1,0 @@
-hello world test with 中文 characters mixed in
-second line of content here

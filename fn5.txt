@@ -1,6 +1,0 @@
-function forceShowButton() {
-    const btn = document.getElementById('x');
-    if (btn) {
-        btn.style.display = '';
-    }
-}

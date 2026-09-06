@@ -1,3 +1,0 @@
-        for (const k of rule.excludeKeys || []) keys.add(String(k));
-    }
-    return { keys: [...keys], rules: matchedRules };

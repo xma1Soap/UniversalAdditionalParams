@@ -1,2 +1,0 @@
-        const t = line.trim();
-        const u = line.trim();

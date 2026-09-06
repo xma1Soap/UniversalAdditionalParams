@@ -1,2 +1,0 @@
-            noteEl.textContent = 'hello';
-            noteEl.textContent = 'hello';

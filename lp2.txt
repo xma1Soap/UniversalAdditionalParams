@@ -1,2 +1,0 @@
-    for (const line of raw.split('\n')) {
-        const t = line.trim();

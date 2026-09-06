@@ -1,3 +1,0 @@
-        badgeEl.textContent = active ? 1 : 2;
-        badgeEl.textContent = active ? 1 : 2;
-        badgeEl.textContent = active ? 1 : 2;

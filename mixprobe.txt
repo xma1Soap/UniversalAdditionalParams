@@ -1,5 +1,0 @@
-first
-second
-third with 'quotes' and "double quotes" inside
-fourth
-fifth with CJK afterwards

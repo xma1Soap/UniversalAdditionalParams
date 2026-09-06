@@ -1,3 +1,0 @@
-        try {
-            const arr = JSON.parse(raw);
-            if (x) return y;

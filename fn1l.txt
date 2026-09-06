@@ -1,3 +1,0 @@
-refreshAutoExcludeNote() {
-    const x = 1;
-}

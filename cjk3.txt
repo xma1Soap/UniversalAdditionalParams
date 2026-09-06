@@ -1,3 +1,0 @@
-test content with CJK mixed in here for testing purposes
-second line here
-third line here

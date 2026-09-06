@@ -1,5 +1,0 @@
-    for (const line of raw.split('NL')) {
-        const t = line.trim();
-        out.push(t);
-    }
-    return out;
