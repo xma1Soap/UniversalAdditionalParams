@@ -1,0 +1,1 @@
+    const noteEl = document.getElementById('uap_auto_note');
