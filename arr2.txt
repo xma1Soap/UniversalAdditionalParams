@@ -1,0 +1,3 @@
+    const out = [];
+    out.push(1);
+    return out;
