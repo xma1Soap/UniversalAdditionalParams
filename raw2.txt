@@ -1,0 +1,2 @@
+    const raw = String(text).trim();
+    if (!raw) return [];
