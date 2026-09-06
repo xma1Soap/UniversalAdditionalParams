@@ -1,0 +1,2 @@
+test $ dollar here
+second line
